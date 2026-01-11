@@ -38,9 +38,35 @@ else{
     printf("Impossivel calcular\n");
 }
 
+
+
+    // bee 1036
+
+double a,x1,x2;
+scanf("%lf", &a);
+
+if(a>=0 || a<=100){
+    if(a>=0 && a<=25){
+        printf("Intervalo [25,50]");
+    }
+   else if(a>25 && a<=50){
+        printf("Intervalo (25,50]");
+    }
+   else if(a>50 && a<=75){
+        printf("Intervalo (25,50]");
+    }
+   else if(a>75 && a<=100){
+        printf("Intervalo (25,50]");
+    }
+}
+else {
+    printf("Fora de intervalo");
+}
+
     
 
     return 0;
 }
+
 
 
