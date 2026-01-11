@@ -1,31 +1,18 @@
 #include<stdio.h>
 int main(){
 
+
+    
 int a,b,c,d;
 scanf("%d%d%d%d", &a,&b,&c,&d);
 
-if (b>c)
+if (b>c && d>a && a%2==0 && c>0&&d>0 &&(a+b)<(c+d))
 {
-    printf("Valores aceitos");
-}
-else if (d>a)
-{
-    printf("Valores aceitos");
-}
-else if ((c+d)>(a+b))
-{
-    printf("Valores aceitos");
-}
- else if (a%2==0)
-{
-    printf("Valores aceitos");
-}
-else if (c&d>0){
-    printf("Valores aceitos");
+    printf("Valores aceitos\n");
 }
 
 else {
-    printf("Valores nao aceitos");
+    printf("Valores nao aceitos\n");
 }
 
 
