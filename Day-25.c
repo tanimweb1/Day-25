@@ -2,7 +2,7 @@
 int main(){
 
 
-    
+    //  bee 1035
 int a,b,c,d;
 scanf("%d%d%d%d", &a,&b,&c,&d);
 
@@ -19,3 +19,4 @@ else {
 
     return 0;
 }
+
